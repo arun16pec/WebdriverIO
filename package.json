@@ -1,0 +1,33 @@
+{
+  "name": "wdio_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open_allure":"allure generate  ./test/reports/allure-reports --clean && allure open",
+    "test": "wdio && wdio-junit-to-html -i ./test/reports/junit-reports -o ./test/reports/junit-reports",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/register": "^7.22.5",
+    "@wdio/allure-reporter": "^8.14.0",
+    "@wdio/cli": "^8.13.12",
+    "@wdio/cucumber-framework": "^8.14.0",
+    "@wdio/junit-reporter": "^8.14.0",
+    "@wdio/local-runner": "^8.13.12",
+    "@wdio/mocha-framework": "^8.12.1",
+    "@wdio/spec-reporter": "^8.12.2",
+    "chromedriver": "^114.0.3",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-junit-to-html": "^3.1.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
+}
