@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Log in the ORANGE HRM Portal" timestamp="2023-08-10T00:25:23" time="6.581" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Log in the ORANGE HRM Portal"/>
+      <property name="capabilities" value="chrome.115_0_5790_171.windows"/>
+      <property name="featureFile" value="file:///C:/WDIO_Tutorial/test/features/logIn.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.115_0_5790_171.windows.Log in the ORANGE HRM Portal" name="Open and login with login details" time="6.544">
+      <system-out><![CDATA[
+✅ Given open the ORANGE HRM Portal URL✅ Then enter the login details and submit
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
